@@ -1,0 +1,22 @@
+file_path: ../deployment_master/deployment_master
+base_dir: ../deployment_master
+soft_name: deployment_master
+target_dir: ../deployment_master/deployment_master_deb
+../deployment_master/deployment_master_deb
+├── DEBIAN
+│   ├── control
+│   ├── postinst
+│   └── postrm
+├── opt
+│   └── launch.sh
+└── usr
+    ├── bin
+    │   └── deployment_master
+    ├── lib
+    └── share
+        ├── applications
+        │   └── deployment_master.desktop
+        ├── doc
+        └── icons
+
+9 directories, 6 files
